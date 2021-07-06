@@ -261,6 +261,13 @@ nextfile:
             End If
         Next
 
+
+        For item = 0 To ListBox4.Items.Count - 1
+            If System.IO.File.Exists(ListBox4.Items(item)) Then
+                ListBox4.SetSelected(item, True)
+            End If
+        Next
+
     End Sub
 
     Private Sub listBox2_DrawItem(ByVal sender As Object, ByVal e As DrawItemEventArgs)

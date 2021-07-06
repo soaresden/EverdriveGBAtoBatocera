@@ -138,11 +138,12 @@ Partial Class Form1
         '
         'BatoceraPath
         '
-        Me.BatoceraPath.Location = New System.Drawing.Point(428, 51)
+        Me.BatoceraPath.Location = New System.Drawing.Point(339, 51)
         Me.BatoceraPath.Name = "BatoceraPath"
-        Me.BatoceraPath.Size = New System.Drawing.Size(291, 20)
+        Me.BatoceraPath.Size = New System.Drawing.Size(380, 20)
         Me.BatoceraPath.TabIndex = 11
         Me.BatoceraPath.Text = "D:\Documents\a-Emulation et Jeux\Recalbox et Batocera\PI4Hybrid\batocera\"
+        Me.BatoceraPath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'RefreshBatocera
         '
