@@ -284,7 +284,7 @@ nextfile:
         Dim sourcefile As String
         Dim destinationfile As String
 
-        For i = 0 To ListBox1.Items.Count
+        For i = 0 To ListBox1.Items.Count - 1
             sourcefile = ListBox1.Items(i)
             destinationfile = ListBox2.Items(i)
             FileCopy(sourcefile, destinationfile)
